@@ -1,0 +1,33 @@
+body {
+	font-family: Open Sans, sans-serif;
+	font-weight: 400;
+	background-color: #33b175;
+}
+
+.l-homeworks {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 300px;
+  min-height: 100vh;
+}
+
+.l-homeworks__item {
+	width: 100%;
+}
+
+.l-homeworks__item + .l-homeworks__item {
+	margin-top: 30px;
+}
+
+.l-homeworks__link {
+	width: 100%;
+  padding: 10px;
+  background-color: #fff;
+  border: 5px solid #18a093;
+  border-radius: 3px;
+  box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.3);
+  color: #6a6a6a;
+}
