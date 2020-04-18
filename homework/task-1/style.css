@@ -1,0 +1,63 @@
+a{
+	color: #fec059;
+	margin: 10px 10px 40px 10px; 
+	text-decoration: none;
+}
+header{
+	background-color: #572349;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	text-align: right;
+}
+h1{
+	color: #fff;
+	font-size: 32px;
+}
+.first{
+	background-image: url("https://wallpaperaccess.com/full/307324.jpg");
+	background-size: cover;
+	padding-top: 300px; 
+	padding-bottom:300px;
+	text-align: center;
+}
+.second{
+	background: linear-gradient(to right, #fdbc54, #fd9a57);
+	padding:100px 100px 500px 100px;
+}
+ul{
+	box-shadow: 5px 5px 20px #000;
+	border: 2px solid #000;
+	padding: 10px;
+	margin-bottom: 50px;
+}
+li{
+	color: #663399;
+	margin: 10px;
+}
+.black{
+	color: #000;
+}
+img{
+	width: 300px;
+	height: 200px;
+}
+figure{
+	text-align: center;
+	border: 1px solid #000;
+	margin: 0;
+	display: inline-block;
+}
+figcaption{
+	padding: 10px;
+}
+footer{
+	background-color: #8e3457;
+	border-top: 2px solid #fff;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	text-align: center;
+}
+p{
+	color: #fff; 
+}
+
