@@ -1,63 +1,84 @@
-a{
+a {
 	color: #fec059;
-	margin: 10px 10px 40px 10px; 
-	text-decoration: none;
+	margin: 10px;
 }
-header{
+
+header {
 	background-color: #572349;
-	padding-bottom: 10px;
-	padding-top: 10px;
+	padding: 10px 0;
 	text-align: right;
 }
-h1{
+
+h1 {
 	color: #fff;
-	font-size: 32px;
+	font-size: 40px;
 }
-.first{
+
+.first {
 	background-image: url("https://wallpaperaccess.com/full/307324.jpg");
 	background-size: cover;
-	padding-top: 300px; 
-	padding-bottom:300px;
+	padding: 300px 0;
 	text-align: center;
 }
-.second{
+
+.second {
 	background: linear-gradient(to right, #fdbc54, #fd9a57);
-	padding:100px 100px 500px 100px;
+	padding:50px;
 }
-ul{
+
+ul {
 	box-shadow: 5px 5px 20px #000;
 	border: 2px solid #000;
 	padding: 10px;
 	margin-bottom: 50px;
 }
-li{
+
+li {
 	color: #663399;
 	margin: 10px;
+	display: block;
 }
-.black{
+
+.black {
 	color: #000;
 }
-img{
+
+img {
 	width: 300px;
 	height: 200px;
 }
-figure{
+
+figure {
 	text-align: center;
 	border: 1px solid #000;
-	margin: 0;
 	display: inline-block;
 }
-figcaption{
+
+figcaption {
 	padding: 10px;
 }
-footer{
+
+footer {
 	background-color: #8e3457;
 	border-top: 2px solid #fff;
-	padding-bottom: 10px;
-	padding-top: 10px;
+	padding: 10px 0;
 	text-align: center;
 }
-p{
+
+p {
 	color: #fff; 
 }
 
+@media screen and (max-width: 992px) {
+
+	figure:nth-of-type(n+2) {
+		margin-top: 10px;
+	}
+}
+
+@media screen and (max-width: 740px) {
+
+	figure:nth-of-type(n+1) {
+		margin-top: 10px;
+	}
+}
