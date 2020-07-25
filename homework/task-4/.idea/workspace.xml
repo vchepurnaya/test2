@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9e6b42ba-7f74-4715-b073-224d25dd3e61" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../task 11/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../task 11/main.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1d3LyfgfNzJd6JekZ9oFZtHl7QR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9e6b42ba-7f74-4715-b073-224d25dd3e61" name="Default Changelist" comment="" />
+      <created>1591649085904</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591649085904</updated>
+      <workItem from="1591649087004" duration="1919000" />
+      <workItem from="1591691422545" duration="1636000" />
+      <workItem from="1591726268931" duration="60000" />
+      <workItem from="1591736402169" duration="50000" />
+      <workItem from="1592152102618" duration="18564000" />
+      <workItem from="1592210989805" duration="21517000" />
+      <workItem from="1592259181572" duration="27000" />
+      <workItem from="1592306777642" duration="2924000" />
+      <workItem from="1592314743567" duration="307000" />
+      <workItem from="1592743460951" duration="861000" />
+      <workItem from="1593543760687" duration="2533000" />
+      <workItem from="1593710607912" duration="7951000" />
+      <workItem from="1593763209341" duration="7142000" />
+      <workItem from="1593789774651" duration="11974000" />
+      <workItem from="1593932444740" duration="159000" />
+      <workItem from="1593949387955" duration="21748000" />
+      <workItem from="1594034880221" duration="9875000" />
+      <workItem from="1594139333177" duration="650000" />
+      <workItem from="1594477284080" duration="20391000" />
+      <workItem from="1594554610377" duration="8724000" />
+      <workItem from="1594683638302" duration="27000" />
+      <workItem from="1595170402978" duration="19173000" />
+      <workItem from="1595254529177" duration="20518000" />
+      <workItem from="1595340066245" duration="49000" />
+      <workItem from="1595498595657" duration="12076000" />
+      <workItem from="1595687475451" duration="1187000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="267" y="19" key="#Inspections" timestamp="1595527708460">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="267" y="19" key="#Inspections/0.0.1280.680@0.0.1280.680" timestamp="1595527708460" />
+    <state x="219" y="115" key="FileChooserDialogImpl" timestamp="1595532802219">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="219" y="115" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1595532802219" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1593720511239">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1593720511239" />
+    <state x="93" y="93" width="1095" height="495" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1594484446220">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="93" y="93" width="1095" height="495" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.680@0.0.1280.680" timestamp="1594484446220" />
+    <state x="347" y="73" width="587" height="534" key="find.popup" timestamp="1595689710312">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="347" y="73" width="587" height="534" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1595689710312" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1593779946758">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1593779946758" />
+  </component>
+</project>

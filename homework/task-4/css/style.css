@@ -1,0 +1,215 @@
+body {
+    height: auto;
+    padding: 50px;
+    font-family: sans-serif;
+    background: #1e4542;
+    display: flex;
+    justify-content: center;
+}
+
+.b-shooter {
+    position: relative;
+    background-image: url(../img/cemetery-cartoon-background.jpg);
+    display: inline-block;
+    width: 800px;
+    height: 600px;
+    margin-top: 50px;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.b-shooter__aim {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    transition: transform .2s ease-out;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.b-shooter__img-aim {
+    position: absolute;
+    width: 100px;
+}
+
+.b-shooter__img-fire {
+    position: absolute;
+    width: 100px;
+    height: 130px;
+    left: 0;
+    bottom: 0;
+    transition: opacity ease-in;
+    visibility: hidden;
+}
+
+.b-shooter__img-ghost {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    animation: ghost-movements 2s infinite;
+    transition: opacity ease-in;
+    z-index: 1;
+}
+
+.b-shooter__progress {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgba(6, 6, 6, .5);
+    width: 40px;
+    height: 500px;
+    border-radius: 50px;
+    position: absolute;
+    left: 5px;
+    margin: auto 0;
+    top: 0;
+    bottom: 0;
+    align-items: center;
+}
+
+.b-shooter__progress-icon {
+    width: 28px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.b-shooter__health {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(6, 6, 6, .5);
+    width: 180px;
+    height: 50px;
+    border-radius: 50px;
+    position: absolute;
+    margin: 0 auto;
+    bottom: 5px;
+    right: 5px;
+}
+
+.b-shooter__health-icon {
+    fill: #ff0000;
+    width: 35px;
+    margin: auto 9px;
+}
+
+.b-shooter__progress-icon._progress {
+    transform: rotate(180deg);
+    opacity: 0.2;
+    transition: transform 0.2s ease-in-out, opacity 0.2s ease-in;
+}
+
+.b-shooter__health-icon._health {
+    transform: scale(0.75);
+    fill: rgba(90, 87, 98, 0.7);
+    transition: transform 0.2s ease-in-out;
+}
+
+.b-shooter__health._blink {
+    animation: blink 1s infinite;
+}
+
+.b-shooter__game-over {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    pointer-events: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.b-shooter__game-over-title {
+    font-size: 72px;
+    text-transform: uppercase;
+}
+
+.b-shooter__game-over-sub-title {
+    font-size: 20px;
+}
+
+._win .b-shooter__game-over,
+._lose .b-shooter__game-over {
+    opacity: 1;
+    pointer-events: auto;
+    transition: opacity .1s ease-in-out;
+}
+
+._win .b-shooter__game-over {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+._lose .b-shooter__game-over {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #ffffff;
+}
+
+._lose .b-shooter__img-ghost {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    animation: ghost-scale 7s .1s cubic-bezier(0, 0.53, 0.2, 0.96) forwards;
+    z-index: 0;
+}
+
+._lose .b-shooter__health,
+._win .b-shooter__health,
+._lose .b-shooter__progress,
+._win .b-shooter__progress,
+._lose .b-shooter__aim {
+    visibility: hidden;
+}
+
+@keyframes ghost-movements {
+    0% {
+        transform: scale(1, 1) translateY(0);
+    }
+
+    10% {
+        transform: scale(1.1, .9) translateY(0);
+    }
+
+    30% {
+        transform: scale(.9, 1.1) translateY(-50px);
+    }
+
+    50% {
+        transform: scale(1.05, .95) translateY(50px);
+    }
+
+    80% {
+        transform: scale(.9, 1.1) translateY(-30px);
+    }
+
+    100% {
+        transform: scale(1) translateY(0);
+    }
+}
+
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
+    }
+
+    10%, 30%, 50%, 70%, 90% {
+        opacity: .7;
+    }
+
+    20%, 40%, 60%, 80% {
+        opacity: .5;
+    }
+}
+
+@keyframes ghost-scale {
+    to {
+        transform: scale(17);
+    }
+}

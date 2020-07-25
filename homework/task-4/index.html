@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shooter | JS Simple Game</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="b-shooter">
+    <div class="b-shooter__aim">
+        <img
+                src="img/aim.svg"
+                class="b-shooter__img-aim"
+                alt="Aim"
+        >
+        <img
+                src="img/fire.gif"
+                class="b-shooter__img-fire"
+                alt="Blue Fire"
+        >
+    </div>
+    <img
+            src="img/ghost.svg"
+            class="b-shooter__img-ghost"
+            style="display: none;"
+            alt="Ghost"
+    >
+    <div class="b-shooter__progress">
+        <img class="b-shooter__progress-icon" src="img/ghost.svg" alt="Ghost">
+        <img class="b-shooter__progress-icon" src="img/ghost.svg" alt="Ghost">
+        <img class="b-shooter__progress-icon" src="img/ghost.svg" alt="Ghost">
+        <img class="b-shooter__progress-icon" src="img/ghost.svg" alt="Ghost">
+        <img class="b-shooter__progress-icon" src="img/ghost.svg" alt="Ghost">
+        <img class="b-shooter__progress-icon" src="img/ghost.svg" alt="Ghost">
+        <img class="b-shooter__progress-icon" src="img/ghost.svg" alt="Ghost">
+        <img class="b-shooter__progress-icon" src="img/ghost.svg" alt="Ghost">
+        <img class="b-shooter__progress-icon" src="img/ghost.svg" alt="Ghost">
+        <img class="b-shooter__progress-icon" src="img/ghost.svg" alt="Ghost">
+    </div>
+    <div class="b-shooter__health">
+        <svg class="b-shooter__health-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+            <path d="M364 48c-39.648 0-78.88 14.912-108 40.544C226.88 62.912 187.648 48 148 48 65.024 48 0 109.248 0 187.424c0 114.912 222.144 258.144 247.456 274.08C250.08 463.2 253.024 464 256 464c2.912 0 5.824-.768 8.416-2.368C356.352 404.864 512 283.296 512 187.424 512 109.248 446.976 48 364 48z"/>
+        </svg>
+        <svg class="b-shooter__health-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+            <path d="M364 48c-39.648 0-78.88 14.912-108 40.544C226.88 62.912 187.648 48 148 48 65.024 48 0 109.248 0 187.424c0 114.912 222.144 258.144 247.456 274.08C250.08 463.2 253.024 464 256 464c2.912 0 5.824-.768 8.416-2.368C356.352 404.864 512 283.296 512 187.424 512 109.248 446.976 48 364 48z"/>
+        </svg>
+        <svg class="b-shooter__health-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+            <path d="M364 48c-39.648 0-78.88 14.912-108 40.544C226.88 62.912 187.648 48 148 48 65.024 48 0 109.248 0 187.424c0 114.912 222.144 258.144 247.456 274.08C250.08 463.2 253.024 464 256 464c2.912 0 5.824-.768 8.416-2.368C356.352 404.864 512 283.296 512 187.424 512 109.248 446.976 48 364 48z"/>
+        </svg>
+    </div>
+    <div class="b-shooter__game-over">
+        <h2 class="b-shooter__game-over-title">You win</h2>
+        <p class="b-shooter__game-over-sub-title">Press Enter to play again</p>
+    </div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
