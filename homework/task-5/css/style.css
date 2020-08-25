@@ -1,0 +1,138 @@
+@font-face {
+    font-family: Agora Sans;
+    font-weight: 400;
+    font-style: normal;
+    src: local('Agora Sans'),
+    url('../fonts/PFAgoraSansPro-Regular.woff2') format('woff2');
+}
+
+body {
+    font-family: Agora Sans;
+    background-color: #ddd;
+    height: auto;
+}
+
+.container {
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+.parent {
+    display: flex;
+    box-shadow: 1px 1px 3px grey;
+    flex-wrap: wrap;
+}
+
+.section::after {
+    content: 'OR';
+    line-height: 3;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    background-color: #ddd;
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px #000;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -25px;
+    margin: auto 0;
+}
+
+.section,
+form {
+    flex-basis: 50%;
+    padding: 40px 0;
+}
+
+form {
+    background-color: #fff;
+    padding-left: 40px;
+}
+
+form h2 {
+    margin-bottom: 20px;
+}
+
+input[placeholder] {
+    display: block;
+    border-bottom: 2px solid #000;
+    font-size: 20px;
+    height: 40px;
+}
+
+input[placeholder]:nth-of-type(n+2) {
+    margin-top: 10px;
+}
+
+form button {
+    margin-top: 40px;
+    background-color: #17a086;
+    font-size: 16px;
+    color: #fff;
+    padding: 5px 10px;
+    text-transform: uppercase;
+}
+
+.section {
+    background-image: url('../img/sunset.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.section h2 {
+    max-width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
+
+.section button {
+    display: block;
+    margin: 0 auto;
+    font-weight: 700;
+    color: #fff;
+    padding: 10px 15px;
+    min-width: 214px;
+}
+
+.section button:nth-child(n+2) {
+    margin-top: 20px;
+}
+
+.section button:nth-of-type(1) {
+    background-color: #31518c;
+    margin-top: 40px;
+}
+
+.section button:nth-of-type(2) {
+    background-color: #55acef;
+}
+
+.section button:nth-of-type(3) {
+    background-color: #dd4c39;
+}
+
+@media screen and (max-width: 740px) {
+    .parent {
+        padding: 40px 0;
+    }
+
+    .section,
+    form {
+        flex-basis: 100%;
+    }
+
+    .section::after {
+        right: 0;
+        left: 0;
+        top: -25px;
+        margin: 0 auto;
+    }
+}
