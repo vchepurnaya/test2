@@ -114,6 +114,10 @@ body {
         width: 20px;
         height: 20px;
     }
+
+    .l-homeworks {
+        top: 50px;
+    }
 }
 
 @media screen and (max-width: 740px) {
@@ -130,6 +134,10 @@ body {
     .l-homeworks__item:nth-child(n+3) {
         margin-top: 10px;
     }
+
+    .l-homeworks {
+        top: 25px;
+    }
 }
 
 @media screen and (max-width: 360px) {
@@ -139,5 +147,9 @@ body {
 
     .l-homeworks__item:nth-child(n+2) {
         margin-top: 10px;
+    }
+
+    .l-homeworks {
+        top: 10px;
     }
 }
