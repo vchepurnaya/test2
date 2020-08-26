@@ -234,3 +234,9 @@ p {
         margin-right: 20px;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .l-services__item {
+        flex-basis: 75%;
+    }
+}
