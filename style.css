@@ -65,7 +65,7 @@ body {
     flex-wrap: wrap;
     padding: 20px;
     position: relative;
-    top: 25%;
+    top: 100px;
 }
 
 .l-homeworks__item {

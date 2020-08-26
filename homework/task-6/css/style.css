@@ -1,0 +1,261 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.wrapper {
+    display: flex;
+    height: 100vh;
+    flex-wrap: wrap
+}
+
+.b-aside {
+    background-color: #EF5350;
+    width: 290px;
+}
+
+.l-menu {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size: 22px;
+}
+
+.l-menu__link-icon {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    transition: transform 0.2s ease-out;
+}
+
+.l-menu__link {
+    line-height: 3;
+    transition: transform 0.2s ease-out;
+}
+
+.l-menu__link:hover .l-menu__link-icon {
+    transform: scale(1.15);
+}
+
+.l-menu__link:hover .l-menu__link-text {
+    transform: translateX(5px);
+}
+
+.l-menu__link-text {
+    display: inline-block;
+    transition: transform 0.2s ease-out;
+}
+
+.b-main {
+    background-color: #EF9A9A;
+    width: calc(100% - 290px);
+}
+
+.l-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -20px;
+}
+
+.l-gallery__item {
+    flex-basis: 33.3333%;
+    padding: 0 20px;
+}
+
+.b-photo__img {
+    width: 100%;
+}
+
+.b-photo__content {
+    margin-top: 10px;
+}
+
+.b-photo__text {
+    font-size: 20px;
+}
+
+.b-burger {
+    width: 60px;
+    height: 60px;
+    background-color: #ffffff;
+    border-radius: 50px;
+    position: relative;
+    display: none;
+    z-index: 100;
+}
+
+.b-burger__btn,
+.b-burger__btn::before,
+.b-burger__btn::after {
+    position: absolute;
+    top: calc(50% - 1px);
+    left: calc(50% - 10px);
+    width: 20px;
+    height: 2px;
+    background-color: #EF5350;
+}
+
+.b-burger__btn::before,
+.b-burger__btn::after {
+    content: '';
+    transition: .5s;
+}
+
+.b-burger__btn::before {
+    transform: translateY(-5px);
+}
+
+.b-burger__btn::after {
+    transform: translateY(5px);
+}
+
+._active .b-burger__btn {
+    height: 0;
+}
+
+._active .b-burger__btn::before {
+    transform: rotate(45deg);
+}
+
+._active .b-burger__btn::after {
+    transform: rotate(-45deg);
+}
+
+@media screen and (max-width: 992px) {
+    .l-menu {
+        font-size: 16px;
+    }
+
+    .b-photo__text {
+        font-size: 15px;
+    }
+
+    .l-gallery__item {
+        flex-basis: 50%;
+    }
+
+    .l-gallery__item:nth-child(n+3) {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .l-menu {
+        font-size: 14px;
+    }
+
+    .b-photo__text {
+        font-size: 13px;
+    }
+
+    .l-gallery__item {
+        flex-basis: 100%;
+    }
+
+    .b-aside {
+        width: 200px;
+    }
+
+    .b-main {
+        width: calc(100% - 200px);
+    }
+
+    .l-gallery__item:nth-child(n+2) {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .b-burger {
+        display: flex;
+    }
+
+    .block {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+
+    .wrapper {
+        display: block;
+    }
+
+    .b-aside {
+        width: 100%;
+    }
+
+    .b-menu {
+        background-color: #ffffff;
+        border-radius: 50px;
+        padding: 10px 30px 10px 20px;
+        margin-right: -60px;
+    }
+
+    .l-menu {
+        justify-content: space-between;
+        flex-direction: row;
+        font-size: 14px;
+        max-width: 400px;
+    }
+
+    .l-menu__item {
+        width: 33.3333%;
+    }
+
+    .l-menu__link-icon {
+        width: 15px;
+        height: 15px;
+        margin-right: 5px;
+    }
+
+    .l-menu__link {
+        line-height: 1.5;
+        margin-right: 15px;
+    }
+
+    .b-main {
+        width: 100%;
+    }
+
+    .b-photo__text {
+        font-size: 14px;
+    }
+
+    .b-menu {
+        transition: .2s;
+        transform: translateX(100%);
+        visibility: hidden;
+    }
+
+    ._active {
+        transform: translateX(0%);
+        visibility: visible;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .l-menu__item {
+        width: 50%;
+    }
+
+    .l-menu {
+        justify-content: space-between;
+        flex-direction: row;
+        font-size: 14px;
+        max-width: 400px;
+    }
+
+    .b-burger {
+        width: 80px;
+        height: 80px;
+    }
+
+    .b-menu {
+        margin-right: -70px;
+    }
+}
