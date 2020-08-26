@@ -86,7 +86,7 @@ body {
     border-radius: 50px;
     position: relative;
     display: none;
-    z-index: 100;
+    z-index: 1;
 }
 
 .b-burger__btn,
@@ -181,12 +181,8 @@ body {
         justify-content: center;
     }
 
-    .wrapper {
-        display: block;
-    }
-
     .b-aside {
-        width: 100%;
+        flex-basis: 100%;
     }
 
     .b-menu {
@@ -219,7 +215,7 @@ body {
     }
 
     .b-main {
-        width: 100%;
+        flex-basis: 100%;
     }
 
     .b-photo__text {
@@ -228,7 +224,7 @@ body {
 
     .b-menu {
         transition: .2s;
-        transform: translateX(100%);
+        transform: translateX(1%);
         visibility: hidden;
     }
 
