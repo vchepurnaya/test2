@@ -1,0 +1,108 @@
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 60px;
+}
+
+body {
+    background-color: #F6F6F6;
+
+}
+
+.l-users {
+    margin: 20px -20px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.l-users__item {
+    padding: 0 20px;
+    flex-basis: 33.3333%;
+}
+
+.l-users__item:nth-child(n+4) {
+    margin-top: 20px;
+}
+
+.b-user {
+    position: relative;
+    background-color: #FFFFFF;
+    box-shadow: 1px 1px 20px #000000;
+    height: 300px;
+}
+
+/*common height*/
+
+.b-user__background_male {
+    background-color: #4eb7e5;
+    height: 100px;
+}
+
+.b-user__background_female {
+    background-color: #FF98E7;
+    height: 100px;
+}
+
+.b-user__mail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E9F4F8;
+    border-top: 3px solid #D3D9D9;
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    bottom: 0;
+}
+
+.b-user__mail-link {
+    font-size: 16px;
+}
+
+.b-user__photo {
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    border-radius: 50%;
+    top: 10%;
+    left: calc(50% - 60px);
+    border: 3px solid #ffffff;
+}
+
+.b-user__btn-close {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #F64138;
+    cursor: pointer;
+}
+
+.b-user__btn-close::before,
+.b-user__btn-close::after {
+    content: '';
+    width: 20px;
+    height: 2px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: calc(50% - 1px);
+    left: calc(50% - 10px);
+}
+
+.b-user__btn-close::before {
+    transform: rotate(-45deg);
+}
+
+.b-user__btn-close::after {
+    transform: rotate(45deg);
+}
+
+.b-user__name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 95px;
+    font-size: 20px;
+    font-weight: 600;
+}
